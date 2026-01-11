@@ -1,12 +1,28 @@
-body{
+/* Common Style */
+*{
     margin: 0%;
     padding: 0%;
-    font-family: "Poppins", sans-serif;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 body::-webkit-scrollbar{
     display: none;
+}
+
+section{
+    padding: 50px 80px 80px 80px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1291px;
+    margin: 0px auto;
+    padding: 0 16px;
+    /* height: 100vh; */
+    width: 100%;
+    gap: 100px;
 }
 
 .h1{
@@ -33,26 +49,36 @@ body::-webkit-scrollbar{
     color: #757575;
 }
 
-#AboutSection , #RoomsSection{
-    padding: 100px 0px;
+.CommonHeading{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
-#ServicesSection , #ReviewSection{
-    padding: 100px 157px;
+.AUS , .AUSText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: bold;
 }
 
-.container{
-    /* max-width: 1291px; */
-    padding: 32px 80px 80px 80px;
+.AUSLine{
+    border: 1px solid black;
+    width: 5rem;
 }
 
-/* LandingPage CSS */
-/* #LandingPageContainer{
+/* Landing Page Style */
+
+#LandingPageContainer{
     position: relative;
-} */
+    height: 100vh;
+}
+
 #LandingPage{
     background-image: url("../assets/images/Home_Screen.png");
     height: 100vh;
+    /* width: 1244px; */
 }
  
 #LogoDiv{
@@ -89,22 +115,22 @@ nav #LogoDiv p{
     color: #fff;
 }
 
-/* Auto layout */
 #WelcomeDiv{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     color: #fff;
-    width: 550px;
+    width: 600px;
     height: 400px;
-    margin-top: 15rem;
-    /* position: absolute;
+    position: absolute;
     left: 0%;
-    bottom: 0%; */
+    bottom: 0%;
+    gap: 1rem;
 }
 
 #WelcomeDiv span{
     font-size: 70px;
+    font-weight: 700;
 }
 
 #WelcomeDivButtons{
@@ -134,25 +160,17 @@ nav #LogoDiv p{
     border: 1px solid #fff;
 }
 
-/* AboutUs Page CSS */
-.AUS , .AUSText{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    font-weight: bold;
-}
+/* About Page CSS */
 
-.AUSLine{
-    border: 1px solid black;
-    width: 5rem;
+#AboutSection{
+    padding: 100px 129px;
 }
 
 #MainDivAbout{
     display: flex;
     flex-direction: column;
     gap: 5rem;
-    margin: 100px 0px;
+    /* margin: 100px 0px; */
 }
 
 .SubDiv{
@@ -164,15 +182,17 @@ nav #LogoDiv p{
 
 .SubDiv .SubDivImage{
     width: 524px;
-    height: 360px;
+    /* height: 360px; */
+    height: auto;
 }
 
 .SubDiv .SubDivText{
     display: flex;
     flex-direction: column;
     width: 524px;
-    height: 360px;
-    gap: 0.5rem;
+    /* height: 360px; */
+    height: auto;
+    gap: 2rem;
 }
 
 .SubDivText span{
@@ -180,7 +200,7 @@ nav #LogoDiv p{
     font-weight: 700;
 }
 
-.SubDiv .SubDivText .SubDivButton{
+.SubDivButton{
     color: #FF8D41;
     border: 1px solid #FF8D41;
     border-radius: 12px;
@@ -210,10 +230,14 @@ nav #LogoDiv p{
 }
 
 /* Rooms Section Style */
+#RoomsSection , #ServiceSection , #ReviewSection ,#ServicesSection{
+    padding: 100px 156px;
+}
+
 .Rooms{
     height: 348px;
     display: flex;
-    gap: 5rem;
+    gap: 48px;
     align-items: center;
     justify-content: center;
 }
@@ -248,6 +272,7 @@ nav #LogoDiv p{
     letter-spacing: 0.2px;
 }
 
+/* Services Section */
 .Services , .Reviews{
     display: flex;
     align-items: center;
@@ -295,6 +320,7 @@ nav #LogoDiv p{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 1.5rem;
 }
 
 .ServiceInfo img{
@@ -311,6 +337,7 @@ nav #LogoDiv p{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 1.5rem;
 }
 
 /* Review Page section */

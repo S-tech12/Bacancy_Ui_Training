@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JustStay</title>
+    <title>Temporary</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/Hover.css">
+    <link rel="stylesheet" href="CSS/Responsivness.css">
 </head>
 
 <body>
     <main>
+        <!-- LandingPage  -->
         <section id="LandingPage">
             <div class="container" id="LandingPageContainer">
                 <header>
@@ -17,11 +20,11 @@
                         <div id="LogoDiv">
                             <h1>Just<span>Stay</span></h1>
                             <ul>
-                                <li><a href="#HomeSection">Home</a></li>
+                                <li><a href="#LandingPage">Home</a></li>
                                 <li><a href="#AboutSection">About</a></li>
                                 <li><a href="#RoomsSection">Rooms</a></li>
                                 <li><a href="#ServicesSection">Services</a></li>
-                                <li><a href="#ContactSection">Contact</a></li>
+                                <li><a href="#FooterSection">Contact</a></li>
                             </ul>
                             <p>Logout</p>
                         </div>
@@ -37,14 +40,16 @@
                         <button>Explore More</button>
                     </div>
                 </div>
+            </div>
         </section>
 
+        <!-- About-Us Page  -->
         <section id="AboutSection">
             <div class="container" id="AboutUsPageContainer">
                 <div class="AUS">
-                    <div class="AUSLine"></div>
+                    <hr class="AUSLine"></hr>
                     <p>About Us</p>
-                    <div class="AUSLine"></div>
+                    <hr class="AUSLine"></hr>
                 </div>
                 <div id="MainDivAbout">
                     <div class="SubDiv">
@@ -80,238 +85,255 @@
                     </div>
                 </div>
             </div>
-            <div class="StatsScreen">
-                <div class="Stats">
-                    <div class="StatsNumber">8</div>
-                    <div class="StatsText">Years Of Service</div>
-                </div>
-                <div class="Stats">
-                    <div class="StatsNumber">459</div>
-                    <div class="StatsText">Sq. Meter Area</div>
-                </div>
-                <div class="Stats">
-                    <div class="StatsNumber">50</div>
-                    <div class="StatsText">Nice Rooms</div>
-                </div>
-                <div class="Stats">
-                    <div class="StatsNumber">3786</div>
-                    <div class="StatsText">Happy Visitors</div>
-                </div>
             </div>
         </section>
+
+        <!-- Stats Screen -->
+        <div class="StatsScreen">
+            <div class="Stats">
+                <div class="StatsNumber">8</div>
+                <div class="StatsText">Years Of Service</div>
+            </div>
+            <div class="Stats">
+                <div class="StatsNumber">459</div>
+                <div class="StatsText">Sq. Meter Area</div>
+            </div>
+            <div class="Stats">
+                <div class="StatsNumber">50</div>
+                <div class="StatsText">Nice Rooms</div>
+            </div>
+            <div class="Stats">
+                <div class="StatsNumber">3786</div>
+                <div class="StatsText">Happy Visitors</div>
+            </div>
+        </div>
+
+        <!-- Rooms Page -->
         <section id="RoomsSection">
             <div class="container" id="RoomsPageContainer">
-                <div class="AUS">
-                    <div class="AUSLine"></div>
-                    <p>Our Rooms</p>
-                    <div class="AUSLine"></div>
+                <div class="CommonHeading">
+                    <div class="AUS">
+                        <hr class="AUSLine"></hr>
+                        <p>Our Rooms</p>
+                        <hr class="AUSLine"></hr>
+                    </div>
+                    <div class="AUSText">
+                        <span class="h2">Explore Our <span style="color: #FF8D41;">Rooms</span></span>
+                    </div>
                 </div>
-                <div class="AUSText">
-                    <span class="h2">Explore Our <span style="color: #FF8D41;">Rooms</span></span>
+                <div class="Rooms">
+                    <div class="card">
+                        <div class="cardImage">
+                            <img src="assets/images/Image.png" alt="Room1">
+                        </div>
+                        <div class="cardInfo">
+                            <span class="h3">JUNIOR SUITE</span>
+                            <span class="SecondGreyText">$150.00 / per night</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cardImage">
+                            <img src="assets/images/Image (1).png" alt="Room2">
+                        </div>
+                        <div class="cardInfo">
+                            <span class="h3">Executive Suite</span>
+                            <span class="SecondGreyText">$250.00 / per night</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cardImage">
+                            <img src="assets/images/Image (2).png" alt="Room3">
+                        </div>
+                        <div class="cardInfo">
+                            <span class="h3">Super Deluxe</span>
+                            <span class="SecondGreyText">$350.00 / per night</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="Rooms">
-                <div class="card">
-                    <div class="cardImage">
-                        <img src="assets/images/Image.png" alt="Room1">
-                    </div>
-                    <div class="cardInfo">
-                        <span class="h3">JUNIOR SUITE</span>
-                        <span class="SecondGreyText">$150.00 / per night</span>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="cardImage">
-                        <img src="assets/images/Image (1).png" alt="Room2">
-                    </div>
-                    <div class="cardInfo">
-                        <span class="h3">Executive Suite</span>
-                        <span class="SecondGreyText">$250.00 / per night</span>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="cardImage">
-                        <img src="assets/images/Image (2).png" alt="Room3">
-                    </div>
-                    <div class="cardInfo">
-                        <span class="h3">Super Deluxe</span>
-                        <span class="SecondGreyText">$350.00 / per night</span>
-                    </div>
-                </div>
 
             </div>
         </section>
+
+        <!-- Services Page -->
         <section id="ServicesSection">
-            <div class="container" id="ServicesPageContainer">
-                <div class="AUS">
-                    <div class="AUSLine"></div>
-                    <p>Our Services</p>
-                    <div class="AUSLine"></div>
-                </div>
-                <div class="AUSText">
-                    <span class="h2">Explore Our <span style="color: #FF8D41;">Services</span></span>
-                </div>
-            </div>
-            <div class="Services">
-                <div class="ServiceCard">
-                    <div class="ServiceInfo">
-                        <img src="assets/images/building 1.svg" alt="buildingImage">
-                        <div class="ServiceInfoText">
-                            <p class="h3">Rooms & Appartment</p>
-                            <p class="h5 GreyText">Figma ipsum component variant main layer. </p>
-                        </div>
+            <div class="container">
+                <div class="CommonHeading">
+                    <div class="AUS">
+                        <hr class="AUSLine"></hr>
+                        <p>Our Services</p>
+                        <hr class="AUSLine"></hr>
+                    </div>
+                    <div class="AUSText">
+                        <span class="h2">Explore Our <span style="color: #FF8D41;">Services</span></span>
                     </div>
                 </div>
-                <div class="ReverseServiceCard">
-                    <div class="ServiceInfo">
-                        <img src="assets/images/ranking-podium 1.png" alt="rankingImage">
-                        <div class="ServiceInfoText">
-                            <p class="h3">Sports & Gaming</p>
-                            <p class="h5">Figma ipsum component variant main layer. </p>
+                <div class="Services">
+                    <div class="ServiceCard">
+                        <div class="ServiceInfo">
+                            <img src="assets/images/building 1.svg" alt="buildingImage">
+                            <div class="ServiceInfoText">
+                                <p class="h3">Rooms & Appartment</p>
+                                <p class="h5 GreyText">Figma ipsum component variant main layer. </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="ServiceCard">
-                    <div class="ServiceInfo">
-                        <img src="assets/images/Vector.svg" alt="vectorImage">
-                        <div class="ServiceInfoText">
-                            <p class="h3">Food & Resturant</p>
-                            <p class="h5 GreyText">Figma ipsum component variant main layer. </p>
+                    <div class="ReverseServiceCard">
+                        <div class="ServiceInfo">
+                            <img src="assets/images/ranking-podium 1.png" alt="rankingImage">
+                            <div class="ServiceInfoText">
+                                <p class="h3">Sports & Gaming</p>
+                                <p class="h5">Figma ipsum component variant main layer. </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="ServiceCard">
-                    <div class="ServiceInfo">
-                        <img src="assets/images/candle-lotus-yoga 1.svg" alt="candleImage">
-                        <div class="ServiceInfoText">
-                            <p class="h3">Spa & Fitness</p>
-                            <p class="h5 GreyText">Figma ipsum component variant main layer. </p>
+                    <div class="ServiceCard">
+                        <div class="ServiceInfo">
+                            <img src="assets/images/Vector.svg" alt="vectorImage">
+                            <div class="ServiceInfoText">
+                                <p class="h3">Food & Resturant</p>
+                                <p class="h5 GreyText">Figma ipsum component variant main layer. </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="ServiceCard">
-                    <div class="ServiceInfo">
-                        <img src="assets/images/glass-cheers 1.svg" alt="glassImage">
-                        <div class="ServiceInfoText">
-                            <p class="h3">Event & Party</p>
-                            <p class="h5 GreyText">Figma ipsum component variant main layer. </p>
+                    <div class="ServiceCard">
+                        <div class="ServiceInfo">
+                            <img src="assets/images/candle-lotus-yoga 1.svg" alt="candleImage">
+                            <div class="ServiceInfoText">
+                                <p class="h3">Spa & Fitness</p>
+                                <p class="h5 GreyText">Figma ipsum component variant main layer. </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="ServiceCard">
-                    <div class="ServiceInfo">
-                        <img src="assets/images/gym 1.svg" alt="gymImage">
-                        <div class="ServiceInfoText">
-                            <p class="h3">GYM & Yoga</p>
-                            <p class="h5 GreyText">Figma ipsum component variant main layer. </p>
+                    <div class="ServiceCard">
+                        <div class="ServiceInfo">
+                            <img src="assets/images/glass-cheers 1.svg" alt="glassImage">
+                            <div class="ServiceInfoText">
+                                <p class="h3">Event & Party</p>
+                                <p class="h5 GreyText">Figma ipsum component variant main layer. </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section id="ReviewSection">
-            <div class="container" id="ReviewPageContainer">
-                <div class="AUS">
-                    <div class="AUSLine"></div>
-                    <p>Testimonial</p>
-                    <div class="AUSLine"></div>
-                </div>
-                <div class="AUSText">
-                    <span class="h2">What People <span style="color: #FF8D41;">Say?</span></span>
-                </div>
-            </div>
-            <div class="Reviews">
-                <div class="ReviewCard">
-                    <div class="ReviewInfo">
-                        <div class="Image_Text">
-                            <img src="assets/images/quote-down.svg" alt="quote-downImage">
-                            <p class="h5 SecondGreyText">Nobis voluptatem magni doloribus voluptate culpa dolor est
-                                neque </p>
-                        </div>
-                        <div class="ReviewText">
-                            <p class="h3">Rita O'Conner</p>
-                            <p class="h5 GreyText">Sandrine.Luettgen@gmail.com</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="ReviewCard">
-                    <div class="ReviewInfo">
-                        <div class="Image_Text">
-                            <img src="assets/images/quote-down.svg" alt="quote-downImage">
-                            <p class="h5 SecondGreyText">Nobis voluptatem magni doloribus voluptate culpa dolor est
-                                neque </p>
-                        </div>
-                        <div class="ReviewText">
-                            <p class="h3">Woodrow McCullough</p>
-                            <p class="h5 GreyText">Idell.Hoppe86@yahoo.com</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="ReviewCard">
-                    <div class="ReviewInfo">
-                        <div class="Image_Text">
-                            <img src="assets/images/quote-down.svg" alt="quote-downImage">
-                            <p class="h5 SecondGreyText">Nobis voluptatem magni doloribus voluptate culpa dolor est
-                                neque </p>
-                        </div>
-                        <div class="ReviewText">
-                            <p class="h3">Veronica Hessel</p>
-                            <p class="h5 GreyText">Valentin.Homenick@gmail.com</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="ReviewCard">
-                    <div class="ReviewInfo">
-                        <div class="Image_Text">
-                            <img src="assets/images/quote-down.svg" alt="quote-downImage">
-                            <p class="h5 SecondGreyText">Nobis voluptatem magni doloribus voluptate culpa dolor est
-                                neque </p>
-                        </div>
-                        <div class="ReviewText">
-                            <p class="h3">George Heaney</p>
-                            <p class="h5 GreyText">Liliana.Howell85@hotmail.com</p>
+                    <div class="ServiceCard">
+                        <div class="ServiceInfo">
+                            <img src="assets/images/gym 1.svg" alt="gymImage">
+                            <div class="ServiceInfoText">
+                                <p class="h3">GYM & Yoga</p>
+                                <p class="h5 GreyText">Figma ipsum component variant main layer. </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <footer>
+        <!-- Review Page -->
+        <section>
+            <div class="container">
+                <div class="CommonHeading">
+                    <div class="AUS">
+                        <hr class="AUSLine"></hr>
+                        <p>Testimonial</p>
+                        <hr class="AUSLine"></hr>
+                    </div>
+                    <div class="AUSText">
+                        <span class="h2">What People <span style="color: #FF8D41;">Say?</span></span>
+                    </div>
+                </div>
+                <div class="Reviews">
+                    <div class="ReviewCard">
+                        <div class="ReviewInfo">
+                            <div class="Image_Text">
+                                <img src="assets/images/quote-down.svg" alt="quote-downImage">
+                                <p class="h5 SecondGreyText">Nobis voluptatem magni doloribus voluptate culpa dolor est
+                                    neque </p>
+                            </div>
+                            <div class="ReviewText">
+                                <p class="h3">Rita O'Conner</p>
+                                <p class="h5 GreyText">Sandrine.Luettgen@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ReviewCard">
+                        <div class="ReviewInfo">
+                            <div class="Image_Text">
+                                <img src="assets/images/quote-down.svg" alt="quote-downImage">
+                                <p class="h5 SecondGreyText">Nobis voluptatem magni doloribus voluptate culpa dolor est
+                                    neque </p>
+                            </div>
+                            <div class="ReviewText">
+                                <p class="h3">Woodrow McCullough</p>
+                                <p class="h5 GreyText">Idell.Hoppe86@yahoo.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ReviewCard">
+                        <div class="ReviewInfo">
+                            <div class="Image_Text">
+                                <img src="assets/images/quote-down.svg" alt="quote-downImage">
+                                <p class="h5 SecondGreyText">Nobis voluptatem magni doloribus voluptate culpa dolor est
+                                    neque </p>
+                            </div>
+                            <div class="ReviewText">
+                                <p class="h3">Veronica Hessel</p>
+                                <p class="h5 GreyText">Valentin.Homenick@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ReviewCard">
+                        <div class="ReviewInfo">
+                            <div class="Image_Text">
+                                <img src="assets/images/quote-down.svg" alt="quote-downImage">
+                                <p class="h5 SecondGreyText">Nobis voluptatem magni doloribus voluptate culpa dolor est
+                                    neque </p>
+                            </div>
+                            <div class="ReviewText">
+                                <p class="h3">George Heaney</p>
+                                <p class="h5 GreyText">Liliana.Howell85@hotmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Page -->
+        <footer id="FooterSection">
             <div class="footerContainer">
                 <div class="First">
                     <span class="h2">Just<span style="color: #FF8D41;">Stay</span></span>
                     <div class="FirstText">
                         <p class="GreyText">Recusandae quos nesciunt veniam eum quia </p>
-                        <p class="GreyText">shaikhsaad256@gmail.com</p>
+                        <a href="mailto:shaikhsaad256@gmail.com" class="GreyText">shaikhsaad256@gmail.com</a>
                     </div>
                 </div>
                 <div class="Quick_Links">
                     <p>Quick Links</p>
-                    <li><a href="#HomeSection">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Rooms</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="#LandingPage">Home</a></li>
+                    <li><a href="#AboutSection">About Us</a></li>
+                    <li><a href="#RoomsSection">Rooms</a></li>
+                    <li><a href="#ServicesSection">Services</a></li>
                 </div>
                 <div class="Quick_Links">
                     <p>Quick Links</p>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Rooms</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="#LandingPage">Home</a></li>
+                    <li><a href="#AboutSection">About Us</a></li>
+                    <li><a href="#RoomsSection">Rooms</a></li>
+                    <li><a href="#ServicesSection">Services</a></li>
                 </div>
                 <div class="Quick_Links">
                     <p>Quick Links</p>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Rooms</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="#LandingPage">Home</a></li>
+                    <li><a href="#AboutSection">About Us</a></li>
+                    <li><a href="#RoomsSection">Rooms</a></li>
+                    <li><a href="#ServicesSection">Services</a></li>
                 </div>
                 <div class="Quick_Links">
                     <p>Quick Links</p>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Rooms</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="#LandingPage">Home</a></li>
+                    <li><a href="#AboutSection">About Us</a></li>
+                    <li><a href="#RoomsSection">Rooms</a></li>
+                    <li><a href="#ServicesSection">Services</a></li>
                 </div>
             </div>
         </footer>
