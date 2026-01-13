@@ -12,6 +12,7 @@ body::-webkit-scrollbar{
 
 section{
     padding: 50px 80px 80px 80px;
+    margin: 0px auto;
 }
 
 .container{
@@ -79,6 +80,8 @@ section{
     background-image: url("../assets/images/Home_Screen.png");
     height: 100vh;
     /* width: 1244px; */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
  
 #LogoDiv{
@@ -129,7 +132,7 @@ nav #LogoDiv p{
 }
 
 #WelcomeDiv span{
-    font-size: 70px;
+    font-size: 64px;
     font-weight: 700;
 }
 
@@ -180,11 +183,25 @@ nav #LogoDiv p{
     gap: 117px;
 }
 
+.SubDiv:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+.SubDiv:nth-child(1){
+    flex-direction: row;
+}
+
+
 .SubDiv .SubDivImage{
     width: 524px;
     /* height: 360px; */
     height: auto;
 }
+
+.SubDivImage img {
+        width: 100%;
+        height: 100%;
+    }
 
 .SubDiv .SubDivText{
     display: flex;

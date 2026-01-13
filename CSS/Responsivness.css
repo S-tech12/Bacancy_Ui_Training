@@ -1,0 +1,326 @@
+/* general Responsivness */
+/* Rooms boxes */
+@media (max-width : 1294px) {
+    .Rooms {
+        flex-wrap: wrap;
+        height: auto;
+    }
+}
+
+@media (max-width : 1151px) {
+    .SubDiv {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .SubDiv .SubDivText {
+        gap: 1rem;
+    }
+
+    #MainDivAbout {
+        gap: 3rem;
+    }
+}
+
+@media (max-width : 680px) {
+
+    .Services,
+    .Reviews {
+        flex-wrap: wrap;
+    }
+}
+
+/* Ipad View */
+@media (max-width : 1024px) {
+    .SubDivImage img {
+        width: 25rem;
+        height: 17rem;
+    }
+
+    .SubDivText span {
+        font-size: 35px;
+    }
+
+    .SubDivText p {
+        font-size: small;
+    }
+}
+
+/* Mobile Phone view */
+@media (max-width : 768px) {
+    .SubDiv {
+        flex-direction: column;
+        gap: 35px;
+        justify-content: center;
+    }
+
+    #MainDivAbout {
+        gap: 2.5rem;
+    }
+}
+
+@media (max-width : 895px) {
+    .Reviews {
+        flex-wrap: wrap;
+    }
+
+    .footerContainer {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width : 685px) {
+
+    /* .SubDiv .SubDivImage,
+    .SubDiv .SubDivText {
+        width: 360px;
+    }
+
+    .SubDivImage img {
+        width: 100%;
+        height: 100%;
+    } */
+
+    .SubDivText span {
+        font-size: 28px;
+    }
+
+    .SubDivText p {
+        font-size: 10px;
+    }
+}
+
+/* @media (max-width : 650px) {
+
+    .SubDiv .SubDivImage,
+    .SubDiv .SubDivText {
+        width: 260px;
+    }
+
+    .SubDivImage img {
+        width: 100%;
+        height: 100%;
+    }
+} */
+
+@media (max-width : 650px) {
+
+    /* .SubDiv .SubDivImage,
+    .SubDiv .SubDivText {
+        width: 230px;
+    }
+
+    .SubDivImage img {
+        width: 100%;
+        height: 100%;
+    } */
+
+    .SubDivButton {
+        border-radius: 6px;
+        padding: 6px 12px;
+    }
+}
+
+@media (max-width : 991px) {
+    #WelcomeDiv {
+        width: 500px;
+    }
+
+    #WelcomeDiv span {
+        font-size: 50px;
+    }
+}
+
+@media (max-width : 661px) {
+    #WelcomeDiv {
+        width: 400px;
+    }
+
+    #WelcomeDiv span {
+        font-size: 40px;
+    }
+
+    #WelcomeDiv p {
+        font-size: small;
+    }
+}
+
+@media (max-width : 798px) {
+    .AUSText .h2 {
+        font-size: 30px;
+    }
+
+    .Aus p {
+        font-size: small;
+    }
+}
+
+/* @media (max-width : 687px) {
+    .card .cardImage {
+        width: 300px;
+        height: 200px;
+    }
+
+    .card .cardImage img {
+        width: 100%;
+        height: 100%;
+    }
+} */
+
+@media (max-width : 396px) {
+    #WelcomeDiv {
+        width: 300px;
+    }
+}
+
+/* @media (max-width : 628px) {
+    .card .cardImage {
+        width: 200px;
+        height: 100px;
+    }
+
+} */
+
+@media (max-width : 628px) {
+    .AUSText .h2 {
+        font-size: 15px;
+    }
+
+    .Aus p {
+        font-size: smaller;
+    }
+}
+
+@media (max-width:768px) {
+    #LogoDiv {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:558px) {
+    #WelcomeDiv {
+        width: 200px;
+    }
+
+    #WelcomeDiv p {
+        font-size: x-small;
+    }
+
+    #WelcomeDiv span {
+        font-size: 20px;
+    }
+
+    #WelcomeDivButtons {
+        flex-direction: column;
+    }
+}
+
+@media (max-width : 486px) {
+    .AUSText .h2 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width : 405px) {
+    .StatsScreen {
+        height: auto;
+        flex-direction: column;
+    }
+
+    nav #LogoDiv ul {
+        flex-direction: column;
+    }
+
+    .SubDiv .SubDivImage,
+    .SubDiv .SubDivText {
+        width: 280px;
+    }
+
+    .SubDivImage img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .SubDivText span {
+        font-size: 14px;
+    }
+
+    footer .h2 {
+        font-size: 20px;
+    }
+
+    .FirstText p,
+    .FirstText a {
+        font-size: smaller;
+    }
+}
+
+@media (max-width : 610px) {
+    .Aus p {
+        font-size: smaller;
+    }
+
+    .AUSLine {
+        width: 3rem;
+    }
+}
+
+@media (max-width : 541px) {
+    .AUS p {
+        font-size: x-small;
+    }
+
+    .AUSLine {
+        width: 1.5rem;
+    }
+}
+
+@media (max-width : 535px) {
+    .ServiceCard {
+        padding: 11px;
+    }
+}
+
+@media (max-width : 580px) {
+    .StatsScreen {
+        height: auto;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+    }
+
+    .Stats {
+        width: 50%;
+    }
+
+    .card .cardImage{
+        height: 150px;
+        width: 280px;
+    }
+
+    .card .cardImage img{
+        height: 150px;
+        width: 280px;
+    }
+
+    .SubDivImage img {
+        width: 15rem;
+        height: 12rem;
+    }
+}
+
+@media (max-width : 494px) {
+    .AUS p {
+        font-size: x-small;
+    }
+
+    .AUSLine {
+        width: 1.5rem;
+    }
+}
+
+@media (max-width : 643px) {
+    #AboutSection,
+    #RoomsSection {
+        padding: 52px;
+    }
+}
